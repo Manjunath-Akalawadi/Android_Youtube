@@ -15,7 +15,7 @@ public class MainActivity extends YouTubeBaseActivity {
     YouTubePlayerView youTubePlayerViewV;
     YouTubePlayer.OnInitializedListener onInitializedListener;
     Button buttonV ;
-    public static final String API_KEY = "AIzaSyAx0Ns3uNQ1DRxw-TVF6KG4gRDAd7UjJCA";
+    public static final String API_KEY = "API Key";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
