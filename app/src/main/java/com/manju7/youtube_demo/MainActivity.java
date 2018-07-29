@@ -25,9 +25,6 @@ public class MainActivity extends YouTubeBaseActivity {
         youTubePlayerViewV = (YouTubePlayerView) findViewById(R.id.youtubeV);
         buttonV =(Button) findViewById(R.id.buttonV);
 
-
-
-
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
@@ -49,8 +46,6 @@ public class MainActivity extends YouTubeBaseActivity {
                 youTubePlayerViewV.initialize(API_KEY,onInitializedListener);
             }
         });
-
-
 
     }
 }
